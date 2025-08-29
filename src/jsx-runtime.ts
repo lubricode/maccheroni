@@ -9,8 +9,8 @@ import {
   tap,
 } from "rxjs";
 import { HTMLStoreOutletElement } from "./custom-elements";
+import { IntrinsicHTMLElementsAttributes } from "./dom";
 import { MaybeArray, unique } from "./lib/array";
-import { IntrinsicHTMLElementsAttributes } from "./types/dom";
 
 const createAnchorComment = () => document.createComment("anchor");
 

@@ -1,0 +1,13 @@
+body {
+    background-color: #050505;
+    font-family: "JetBrains Mono";
+    font-size: large;
+}
+
+body,
+a {
+    $jsColor: #f7df1e;
+
+    color: $jsColor;
+    text-shadow: 1px 1px 8px $jsColor;
+}

@@ -1,7 +1,13 @@
 {
   "name": "maccheroni",
   "version": "0.0.0",
-  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lubricode/maccheroni.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "jest"
   },
@@ -17,9 +23,13 @@
     "typescript": "~5.8.3"
   },
   "dependencies": {
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "rxjs": "^7.8.2"
   },
   "exports": {
+    ".": {
+      "import": "./src/index.ts"
+    },
     "./jsx-runtime": "./src/jsx-runtime.ts",
     "./jsx-dev-runtime": "./src/jsx-dev-runtime.ts"
   }

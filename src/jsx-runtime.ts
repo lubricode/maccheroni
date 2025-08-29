@@ -8,8 +8,8 @@ import {
   shareReplay,
   tap,
 } from "rxjs";
-import { HTMLStoreOutletElement } from "./custom-elements";
-import { IntrinsicHTMLElementsAttributes } from "./dom";
+import { HTMLStoreOutletElement } from "./dom";
+import { IntrinsicHTMLElementsAttributes } from "./dom/types";
 import { MaybeArray, unique } from "./lib/array";
 
 const createAnchorComment = () => document.createComment("anchor");

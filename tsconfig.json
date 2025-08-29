@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
     "allowImportingTsExtensions": true,
-    "baseUrl": ".",
+    "jsx": "react-jsx",
+    "jsxImportSource": "maccheroni",
     "lib": ["ES2022", "DOM", "DOM.Iterable"],
     "module": "ESNext",
     "moduleDetection": "force",
@@ -13,12 +14,13 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "paths": {
-      "types/*": ["./node_modules/@types/*"]
+      "types/react": ["./node_modules/@types/react"]
     },
     "skipLibCheck": true,
     "strict": true,
     "target": "ES2022",
     "useDefineForClassFields": true
   },
-  "include": ["src"]
+  "include": ["src"],
+  "exclude": ["src/demo"]
 }

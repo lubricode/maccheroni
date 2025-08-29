@@ -3,7 +3,7 @@ import "./style.scss";
 export function Demo() {
   const maccheroni = (
     <a href="https://github.com/lubricode/maccheroni.git" target="_blank">
-      concogt
+      maccheroni
     </a>
   );
 
